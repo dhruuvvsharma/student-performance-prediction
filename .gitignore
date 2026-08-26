@@ -2,6 +2,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
+.vscode
 
 # C extensions
 *.so
@@ -156,6 +157,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+artifacts/
 
 # Spyder project settings
 .spyderproject
