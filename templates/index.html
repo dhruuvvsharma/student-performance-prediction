@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Performance Prediction</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .icon {
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #2d3748;
+            font-size: 38px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #718096;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 35px;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            background: #f7fafc;
+            padding: 15px 20px;
+            border-radius: 10px;
+            color: #4a5568;
+            font-size: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 17px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #a0aec0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="icon">🎓</div>
+
+        <h1>Student Performance Prediction</h1>
+
+        <p>
+            Welcome to the Student Performance Prediction App.
+            This machine learning application predicts a student's
+            expected performance based on academic and demographic factors.
+        </p>
+
+        <div class="features">
+
+            <div class="feature">
+                🤖 Machine Learning
+            </div>
+
+            <div class="feature">
+                📊 Data Driven
+            </div>
+
+            <div class="feature">
+                ⚡ Fast Prediction
+            </div>
+
+        </div>
+
+        <a href="/predict" class="btn">
+            Predict Student Performance
+        </a>
+
+        <div class="footer">
+            Built with Python • Flask • Scikit-learn
+        </div>
+
+    </div>
+
+</body>
+
+</html>

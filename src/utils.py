@@ -20,7 +20,7 @@ def save_object(file_path, obj): #1
         raise CustomException(e, sys)
 
 
-def evaluate_models(X_train, y_train, X_test, y_test, models, params):
+def evaluate_models(X_train, y_train, X_test, y_test, models, params): #2
     try:
         report = {}
         best_models = {}
@@ -47,5 +47,12 @@ def evaluate_models(X_train, y_train, X_test, y_test, models, params):
 
         return report,best_models
 
+    except Exception as e:
+        raise CustomException(e, sys)
+
+def load_object(file_path): #3
+    try:
+        with open(file_path, 'rb') as file_obj:
+            return dill.load(file_obj)
     except Exception as e:
         raise CustomException(e, sys)

@@ -6,4 +6,5 @@ scikit-learn
 jupyter
 catboost
 xgboost
+flask
 dill
