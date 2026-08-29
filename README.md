@@ -104,12 +104,13 @@ Trained Model
 Predicted Math Score
 
 ## Project Structure
+
+```text
 Student-Performance-Prediction/
 │
 ├── notebook/
-│   └── data/
-│       ├── stud.csv
-│       └── catboost_info/
+│   ├── data/
+│   │   └── stud.csv
 │   ├── 1. EDA STUDENT PERFORMANCE.ipynb
 │   └── 2. MODEL TRAINING.ipynb
 │
@@ -136,10 +137,10 @@ Student-Performance-Prediction/
 │   └── index.html
 │
 ├── logs/
-├── catboost_info/
+│
 ├── app.py
 ├── setup.py
-├── requirement.txt
+├── requirements.txt
 ├── .gitignore
 └── README.md
 
