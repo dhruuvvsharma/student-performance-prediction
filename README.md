@@ -90,7 +90,7 @@ MAE — Mean Absolute Error
 RMSE — Root Mean Squared Error
 R² Score
 
-At last, Hyperparameter tuning was performed to improve the performance of the selected model.
+Lastly, Hyperparameter tuning was performed to improve the performance of the selected model.
 
 ## Prediction Pipeline
 User Input
@@ -102,6 +102,16 @@ Preprocessor
 Trained Model
     ↓
 Predicted Math Score
+
+## Tech Stack
+Programming: Python
+Data Analysis: Pandas, NumPy
+Visualization: Matplotlib, Seaborn
+Machine Learning: Scikit-learn, XGBoost, CatBoost
+Web: Flask, HTML, CSS, JavaScript
+Development: Jupyter Notebook, Git, GitHub
+
+
 
 ## Project Structure
 
@@ -143,14 +153,4 @@ Student-Performance-Prediction/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
-## Tech Stack
-Programming: Python
-Data Analysis: Pandas, NumPy
-Visualization: Matplotlib, Seaborn
-Machine Learning: Scikit-learn, XGBoost, CatBoost
-Web: Flask, HTML, CSS, JavaScript
-Development: Jupyter Notebook, Git, GitHub
-
-
 
