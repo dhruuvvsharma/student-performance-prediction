@@ -1,8 +1,11 @@
 # Student Performance Prediction
 
 An end-to-end Machine Learning project that predicts a student's **Math Score** based on demographic information, parental education, test preparation, Reading Score, and Writing Score.
-
 The project covers the complete ML workflow from **EDA and data preprocessing to model training, evaluation, hyperparameter tuning, prediction, and Flask deployment**.
+
+## 🚀 Live Demo
+
+👉 Try the Live App :- https://student-performance-prediction-8gkd.onrender.com/
 
 ---
 
